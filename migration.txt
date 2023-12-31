@@ -1,0 +1,22 @@
+Migration reset:
+---------------------------
+1. For Delete All databases table by this cmd
+
+php artisan migrate:reset
+
+
+2. For Migrate All files / Sob database table firiye anar jonno cmd
+
+php artisan migrate
+
+3. For remove last database table by this cmd
+
+  php artisan migrate:rollback
+
+4. The migrate:refresh command will roll back all of your 
+migrations and then execute the migrate command. 
+This command effectively re-creates your entire database:
+
+ php artisan migrate:refresh
+
+
