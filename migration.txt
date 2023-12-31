@@ -19,4 +19,6 @@ This command effectively re-creates your entire database:
 
  php artisan migrate:refresh
 
+5. 
+
 
